@@ -59,8 +59,10 @@ public class ASBToCosmosDBEventHandler implements EventHandler {
 				
 			PriceCreateNotifiedEvent integrationEvent = new PriceCreateNotifiedEvent();
 		        
-		    integrationEvent.setSku(event.getEntityId());
-		 
+		    integrationEvent.setSku(price.getSku());
+		    integrationEvent.setCurrentPrice(price.getCurrentPrice());
+		    integrationEvent.setRegularPrice(price.getRegularPrice());
+		    integrationEvent.setStore(price.getStore());
    
 		    
 		    	publisher.publish(EventType.PRICE_CREATED, integrationEvent);
@@ -75,8 +77,11 @@ public class ASBToCosmosDBEventHandler implements EventHandler {
 				
 				PriceUpdatedNotifiedEvent integrationEvent = new PriceUpdatedNotifiedEvent();
 		        
-			    integrationEvent.setSku(event.getEntityId());
-			    
+				 integrationEvent.setSku(price.getSku());
+				    integrationEvent.setCurrentPrice(price.getCurrentPrice());
+				    integrationEvent.setRegularPrice(price.getRegularPrice());
+				    integrationEvent.setStore(price.getStore());
+		   	    
 				publisher.publish(EventType.PRICE_UPDATED, integrationEvent);
 				log.info("Published Price updated" + event.getMetadata());
 				
