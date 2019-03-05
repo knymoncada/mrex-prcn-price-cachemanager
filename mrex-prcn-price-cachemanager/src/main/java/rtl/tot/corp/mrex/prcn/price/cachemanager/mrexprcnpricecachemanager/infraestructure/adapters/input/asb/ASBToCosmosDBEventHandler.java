@@ -12,8 +12,10 @@ import rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.domai
 import rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.domain.events.PriceCreateNotifiedEvent;
 import rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.domain.events.PriceUpdatedNotifiedEvent;
 import rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.domain.model.Price;
+import rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.domain.model.Price.Tax;
 import rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.domain.model.PriceRepository;
 import rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.infraestructure.adapters.output.asb.EventPublisherService;
+
 
 import java.io.IOException;
 import java.util.Optional;
@@ -82,6 +84,18 @@ public class ASBToCosmosDBEventHandler implements EventHandler {
 						priceFromDB.setCurrentPrice(price.getCurrentPrice());
 						priceFromDB.setRegularPrice(price.getRegularPrice());
 						priceFromDB.setStore(price.getStore());
+						priceFromDB.setPromotionPrice(price.getPromotionPrice());
+						if (price.getDetraction() != null) {
+						priceFromDB.getDetraction().setCodeDetraction(price.getDetraction().getCodeDetraction());
+						priceFromDB.getDetraction().setNameDetraction(price.getDetraction().getNameDetraction());
+						priceFromDB.getDetraction().setPercentDetraction(price.getDetraction().getPercentDetraction());
+						}
+		    			for(Tax tax: price.getTaxes()) {
+		    				Price.Tax newTax = new Price.Tax();
+		    				newTax.setAmountTax(tax.getAmountTax());
+		    				newTax.setTax(tax.getTax());
+		    				priceFromDB.getTaxes().add(newTax);
+		    			}
 						
 						priceRepository.save(priceFromDB);
 					
