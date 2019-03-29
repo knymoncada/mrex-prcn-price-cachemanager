@@ -41,6 +41,7 @@ dependencies {
 	 exclude group: 'com.jayway.jsonpath'
 	}
 	compileOnly("org.projectlombok:lombok:1.16.10")
+	annotationProcessor("org.projectlombok:lombok:1.16.10")
 	implementation 'com.microsoft.azure:azure-spring-boot-starter'
 		compile group: 'com.microsoft.azure', name: 'azure-documentdb-spring-boot-starter', version: '2.0.5'
 	// https://mvnrepository.com/artifact/com.microsoft.azure/azure-servicebus-spring-boot-starter
