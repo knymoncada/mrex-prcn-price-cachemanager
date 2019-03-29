@@ -6,6 +6,6 @@ import com.microsoft.azure.spring.data.cosmosdb.repository.DocumentDbRepository;
 
 @Repository
 @Primary
-public interface PriceRepository extends DocumentDbRepository<Price, Long> {
+public interface PriceRepository extends DocumentDbRepository<Price, String> {
  
 }

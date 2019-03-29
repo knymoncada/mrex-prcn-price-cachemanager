@@ -1,0 +1,568 @@
+2019-03-19 12:28:17 INFO - Starting MrexPrcnPriceCachemanagerApplication on MOEXT_LAVER with PID 26256 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:17 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:18 INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:18 INFO - Finished Spring Data repository scanning in 110ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:19 INFO - Tomcat initialized with port(s): 8087 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:19 INFO - Initializing ProtocolHandler ["http-nio-8087"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:19 INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:19 INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:19 INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:19 INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:19 INFO - Root WebApplicationContext: initialization completed in 2327 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:27 INFO - Initializing DocumentClient with serviceEndpoint [https://tot-pe-mrex-prcn-price-catalog.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@1044cdf, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:35 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:35 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:35 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:35 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:35 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:35 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:36 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:36 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:36 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:36 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:36 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:36 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:36 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:36 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:36 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:37 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:37 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:37 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-out;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:37 INFO - Creating messaging factory from connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:37 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:37 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:37 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:37 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:37 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Created subscription client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Registering message handler on entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' with 'MessageHandlerOptions - AutoComplete:true, MaxConcurrentCalls:1, MaxAutoRenewDuration:PT5M' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Creating MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid', ReceiveMode 'PEEKLOCK' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Creating core message receiver to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Creating receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Created MessageBrowser to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:38 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:39 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is java.lang.NoSuchFieldError: defaultReader - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:39 INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:39 WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:39 INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:39 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:39ERROR - Application run failed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is java.lang.NoSuchFieldError: defaultReader
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.MrexPrcnPriceCachemanagerApplication.main(MrexPrcnPriceCachemanagerApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is java.lang.NoSuchFieldError: defaultReader
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 19 common frames omitted
+Caused by: java.lang.NoSuchFieldError: defaultReader
+	at com.jayway.jsonpath.spi.json.JsonSmartJsonProvider.<init>(JsonSmartJsonProvider.java:39)
+	at com.jayway.jsonpath.internal.DefaultsImpl.jsonProvider(DefaultsImpl.java:21)
+	at com.jayway.jsonpath.Configuration$ConfigurationBuilder.build(Configuration.java:231)
+	at org.springframework.data.web.JsonProjectingMethodInterceptorFactory.<init>(JsonProjectingMethodInterceptorFactory.java:75)
+	at org.springframework.data.web.ProjectingJackson2HttpMessageConverter.initProjectionFactory(ProjectingJackson2HttpMessageConverter.java:87)
+	at org.springframework.data.web.ProjectingJackson2HttpMessageConverter.<init>(ProjectingJackson2HttpMessageConverter.java:72)
+	at org.springframework.data.web.config.SpringDataWebConfiguration.extendMessageConverters(SpringDataWebConfiguration.java:163)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.extendMessageConverters(WebMvcConfigurerComposite.java:144)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.extendMessageConverters(DelegatingWebMvcConfiguration.java:123)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getMessageConverters(WebMvcConfigurationSupport.java:749)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:563)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter(WebMvcAutoConfiguration.java:479)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$15282511.CGLIB$requestMappingHandlerAdapter$1(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$15282511$$FastClassBySpringCGLIB$$411190eb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$15282511.requestMappingHandlerAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+2019-03-19 12:28:49 INFO - Starting MrexPrcnPriceCachemanagerApplication on MOEXT_LAVER with PID 34788 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:49 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:50 INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:51 INFO - Finished Spring Data repository scanning in 174ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:51 INFO - Tomcat initialized with port(s): 8087 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:51 INFO - Initializing ProtocolHandler ["http-nio-8087"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:52 INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:52 INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:52 INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\environments\oracle\java\8\jdk\jre\bin;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:52 INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:52 INFO - Root WebApplicationContext: initialization completed in 2309 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:28:57 INFO - Initializing DocumentClient with serviceEndpoint [https://tot-pe-mrex-prcn-price-catalog.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@d15347, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:04 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:04 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:04 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:04 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:04 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:04 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:05 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:05 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:05 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:05 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:05 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:05 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-out;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Creating messaging factory from connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:06 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:07 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:07 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:07 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:07 INFO - Created subscription client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:07 INFO - Registering message handler on entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' with 'MessageHandlerOptions - AutoComplete:true, MaxConcurrentCalls:1, MaxAutoRenewDuration:PT5M' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:07 INFO - Creating MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid', ReceiveMode 'PEEKLOCK' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:07 INFO - Creating core message receiver to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:07 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:07 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 INFO - Creating receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 INFO - Receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 INFO - Created MessageBrowser to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is java.lang.NoSuchFieldError: defaultReader - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:08ERROR - Application run failed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is java.lang.NoSuchFieldError: defaultReader
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.MrexPrcnPriceCachemanagerApplication.main(MrexPrcnPriceCachemanagerApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is java.lang.NoSuchFieldError: defaultReader
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 19 common frames omitted
+Caused by: java.lang.NoSuchFieldError: defaultReader
+	at com.jayway.jsonpath.spi.json.JsonSmartJsonProvider.<init>(JsonSmartJsonProvider.java:39)
+	at com.jayway.jsonpath.internal.DefaultsImpl.jsonProvider(DefaultsImpl.java:21)
+	at com.jayway.jsonpath.Configuration$ConfigurationBuilder.build(Configuration.java:231)
+	at org.springframework.data.web.JsonProjectingMethodInterceptorFactory.<init>(JsonProjectingMethodInterceptorFactory.java:75)
+	at org.springframework.data.web.ProjectingJackson2HttpMessageConverter.initProjectionFactory(ProjectingJackson2HttpMessageConverter.java:87)
+	at org.springframework.data.web.ProjectingJackson2HttpMessageConverter.<init>(ProjectingJackson2HttpMessageConverter.java:72)
+	at org.springframework.data.web.config.SpringDataWebConfiguration.extendMessageConverters(SpringDataWebConfiguration.java:163)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.extendMessageConverters(WebMvcConfigurerComposite.java:144)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.extendMessageConverters(DelegatingWebMvcConfiguration.java:123)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getMessageConverters(WebMvcConfigurationSupport.java:749)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:563)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter(WebMvcAutoConfiguration.java:479)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$69052430.CGLIB$requestMappingHandlerAdapter$3(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$69052430$$FastClassBySpringCGLIB$$187c6305.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$69052430.requestMappingHandlerAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+2019-03-19 12:29:28 INFO - Opened requestresponselink to tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid/$management - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:28 INFO - Created requestresponselink to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid/$management' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:29:57 INFO - Updating price Price(sku=04142455, store=123, currentPrice=1505.0, regularPrice=1522.0, promotionPrice=1000.0, taxes=[Price.Tax(tax=IGV, amountTax=18.0)], detraction=Price.Detraction(codeDetraction=0035, nameDetraction=Carnes, percentDetraction=4.0)) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:33:33 INFO - Updating price Price(sku=04142455, store=115, currentPrice=123.123, regularPrice=123.123, promotionPrice=1000.0, taxes=[Price.Tax(tax=IGV, amountTax=130.0), Price.Tax(tax=ISC, amountTax=20.0)], detraction=Price.Detraction(codeDetraction=0035, nameDetraction=Carnes, percentDetraction=5.0)) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:34:41 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:42 INFO - Starting MrexPrcnPriceCachemanagerApplication on MOEXT_LAVER with PID 9948 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:42 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:43 INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:43 INFO - Finished Spring Data repository scanning in 141ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:44 INFO - Tomcat initialized with port(s): 8087 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:44 INFO - Initializing ProtocolHandler ["http-nio-8087"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:44 INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:44 INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:44 INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\environments\oracle\java\8\jdk\jre\bin;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:44 INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:44 INFO - Root WebApplicationContext: initialization completed in 2524 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:50 INFO - Initializing DocumentClient with serviceEndpoint [https://tot-pe-mrex-prcn-price-catalog.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@eaf42f, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:57 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:57 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:57 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:57 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:57 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:57 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:59 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:59 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:59 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:59 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:59 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:59 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:59 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:35:59 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-out;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - Creating messaging factory from connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:00 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Created subscription client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Registering message handler on entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' with 'MessageHandlerOptions - AutoComplete:true, MaxConcurrentCalls:1, MaxAutoRenewDuration:PT5M' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Creating MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid', ReceiveMode 'PEEKLOCK' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Creating core message receiver to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Creating receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Created MessageBrowser to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:01 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:02 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is java.lang.NoSuchFieldError: defaultReader - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:02 INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:02 WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:02 INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:02 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:36:02ERROR - Application run failed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is java.lang.NoSuchFieldError: defaultReader
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.MrexPrcnPriceCachemanagerApplication.main(MrexPrcnPriceCachemanagerApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is java.lang.NoSuchFieldError: defaultReader
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 19 common frames omitted
+Caused by: java.lang.NoSuchFieldError: defaultReader
+	at com.jayway.jsonpath.spi.json.JsonSmartJsonProvider.<init>(JsonSmartJsonProvider.java:39)
+	at com.jayway.jsonpath.internal.DefaultsImpl.jsonProvider(DefaultsImpl.java:21)
+	at com.jayway.jsonpath.Configuration$ConfigurationBuilder.build(Configuration.java:231)
+	at org.springframework.data.web.JsonProjectingMethodInterceptorFactory.<init>(JsonProjectingMethodInterceptorFactory.java:75)
+	at org.springframework.data.web.ProjectingJackson2HttpMessageConverter.initProjectionFactory(ProjectingJackson2HttpMessageConverter.java:87)
+	at org.springframework.data.web.ProjectingJackson2HttpMessageConverter.<init>(ProjectingJackson2HttpMessageConverter.java:72)
+	at org.springframework.data.web.config.SpringDataWebConfiguration.extendMessageConverters(SpringDataWebConfiguration.java:163)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.extendMessageConverters(WebMvcConfigurerComposite.java:144)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.extendMessageConverters(DelegatingWebMvcConfiguration.java:123)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getMessageConverters(WebMvcConfigurationSupport.java:749)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:563)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter(WebMvcAutoConfiguration.java:479)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2d6d1d54.CGLIB$requestMappingHandlerAdapter$9(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2d6d1d54$$FastClassBySpringCGLIB$$687747f0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2d6d1d54.requestMappingHandlerAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+2019-03-19 12:36:55 INFO - Updating price Price(sku=04142455, store=115, currentPrice=123.123, regularPrice=123.123, promotionPrice=1000.0, taxes=[Price.Tax(tax=IGV, amountTax=130.0), Price.Tax(tax=ISC, amountTax=20.0)], detraction=Price.Detraction(codeDetraction=0035, nameDetraction=Carnes, percentDetraction=5.0)) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:17 INFO - Starting MrexPrcnPriceCachemanagerApplication on MOEXT_LAVER with PID 27304 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:17 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:18 INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:18 INFO - Finished Spring Data repository scanning in 140ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:19 INFO - Tomcat initialized with port(s): 8087 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:19 INFO - Initializing ProtocolHandler ["http-nio-8087"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:19 INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:19 INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:19 INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\environments\oracle\java\8\jdk\jre\bin;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:19 INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:19 INFO - Root WebApplicationContext: initialization completed in 2432 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:24 INFO - Initializing DocumentClient with serviceEndpoint [https://tot-pe-mrex-prcn-price-catalog.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@d15347, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:32 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:32 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:32 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:32 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:32 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:32 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:33 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:33 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:33 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:33 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:33 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:33 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-out;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Creating messaging factory from connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:34 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:35 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:35 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:35 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:35 INFO - Created subscription client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:35 INFO - Registering message handler on entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' with 'MessageHandlerOptions - AutoComplete:true, MaxConcurrentCalls:1, MaxAutoRenewDuration:PT5M' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:35 INFO - Creating MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid', ReceiveMode 'PEEKLOCK' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:35 INFO - Creating core message receiver to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:35 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:35 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:36 INFO - Creating receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:36 INFO - Receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:36 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:36 INFO - Created MessageBrowser to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:36 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:36 INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:36 INFO - Starting ProtocolHandler ["http-nio-8087"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:36 INFO - Tomcat started on port(s): 8087 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:38:36 INFO - Started MrexPrcnPriceCachemanagerApplication in 20.214 seconds (JVM running for 22.279) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:39:05 INFO - Opened requestresponselink to tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid/$management - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:39:05 INFO - Created requestresponselink to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid/$management' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:39:23 INFO - Updating price Price(sku=04142455, store=115, currentPrice=123.123, regularPrice=123.123, promotionPrice=1000.0, taxes=[Price.Tax(tax=IGV, amountTax=130.0), Price.Tax(tax=ISC, amountTax=20.0)], detraction=Price.Detraction(codeDetraction=0035, nameDetraction=Carnes, percentDetraction=5.0)) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 12:40:26 INFO - Price not found to update{"sku":"04142455","store":115,"currentPrice":123.123,"regularPrice":123.123,"promotionPrice":1000.0,"taxes":[{"tax":"IGV","amountTax":130.0},{"tax":"ISC","amountTax":20.0}],"detraction":{"codeDetraction":"0035","nameDetraction":"Carnes","percentDetraction":5.0}} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 13:00:56 WARN - Receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid', sessionId 'null' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: com.microsoft.azure.servicebus.amqp.AmqpException: The link '878979_6cfdbd6096f448e2bc508f7232150a24_G0' is force detached by the broker due to errors occurred in aggregate-link11816145. Detach origin: AmqpMessagePartitioningEntityMessageCache.IdleTimerExpired: Idle timeout: 00:15:00.
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:86)
+	at com.microsoft.azure.servicebus.primitives.CoreMessageReceiver.onError(CoreMessageReceiver.java:765)
+	at com.microsoft.azure.servicebus.primitives.CoreMessageReceiver.onClose(CoreMessageReceiver.java:940)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.microsoft.azure.servicebus.amqp.AmqpException: The link '878979_6cfdbd6096f448e2bc508f7232150a24_G0' is force detached by the broker due to errors occurred in aggregate-link11816145. Detach origin: AmqpMessagePartitioningEntityMessageCache.IdleTimerExpired: Idle timeout: 00:15:00.
+	... 11 common frames omitted
+2019-03-19 13:00:56 INFO - Completeing all pending receive and updateState operation on the receiver to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:25:48 INFO - Persisting price Price(sku=4142455, store=123, currentPrice=1505.0, regularPrice=1522.0, promotionPrice=1000.0, taxes=[Price.Tax(tax=IGV, amountTax=18.0)], detraction=Price.Detraction(codeDetraction=0035, nameDetraction=Carnes, percentDetraction=4.0)) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:25:48 WARN - 'Windows 10' with 'x86' system is not compatible with native library. JNI not loaded. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:25:51 INFO - Event published: {"sku":"4142455","store":123,"currentPrice":1505.0,"regularPrice":1522.0} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:25:51 INFO - Published Price Created{"sku":"4142455","store":123,"currentPrice":1505.0,"regularPrice":1522.0,"promotionPrice":1000.0,"taxes":[{"tax":"IGV","amountTax":18.0}],"detraction":{"codeDetraction":"0035","nameDetraction":"Carnes","percentDetraction":4.0}} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:25:51ERROR - Delivery not found for delivery tag ':���q3M���|	 #'. Either receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' closed with a transient error and reopened or the delivery was already settled by complete/abandon/defer/deadletter. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:25:51ERROR - Completing message with sequence number '9851624184872963' failed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+java.lang.IllegalArgumentException: Delivery not found on the receive link.
+	at com.microsoft.azure.servicebus.primitives.CoreMessageReceiver.generateDeliveryNotFoundException(CoreMessageReceiver.java:1234)
+	at com.microsoft.azure.servicebus.primitives.CoreMessageReceiver.updateMessageStateAsync(CoreMessageReceiver.java:1093)
+	at com.microsoft.azure.servicebus.primitives.CoreMessageReceiver.completeMessageAsync(CoreMessageReceiver.java:1015)
+	at com.microsoft.azure.servicebus.MessageReceiver.lambda$completeAsync$7(MessageReceiver.java:233)
+	at java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:981)
+	at java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2124)
+	at com.microsoft.azure.servicebus.MessageReceiver.completeAsync(MessageReceiver.java:229)
+	at com.microsoft.azure.servicebus.MessageAndSessionPump.lambda$null$1(MessageAndSessionPump.java:168)
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:822)
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:797)
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:443)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2019-03-19 14:25:51ERROR - COMPLETE-Delivery not found on the receive link. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:25:51 INFO - Recreating receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:25:51 INFO - Creating receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:25:52 INFO - Receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:26:51 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:26:53 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:26:53 INFO - Shutting down ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:26:53 INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:26:53 WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:09 INFO - Starting MrexPrcnPriceCachemanagerApplication on MOEXT_LAVER with PID 28680 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:09 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:10 INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:10 INFO - Finished Spring Data repository scanning in 116ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:11 INFO - Tomcat initialized with port(s): 8087 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:11 INFO - Initializing ProtocolHandler ["http-nio-8087"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:11 INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:11 INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:11 INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:11 INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:11 INFO - Root WebApplicationContext: initialization completed in 2176 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:19 INFO - Initializing DocumentClient with serviceEndpoint [https://tot-pe-mrex-prcn-price-catalog.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@10ee03a, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:27 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:27 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:27 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:27 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:27 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:27 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:29 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:29 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:29 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:29 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:29 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:29 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:29 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:29 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:29 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:30 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:30 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:30 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-out;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:30 INFO - Creating messaging factory from connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:30 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:30 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:30 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:30 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:30 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:31 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:31 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:31 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:31 INFO - Created subscription client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:31 INFO - Registering message handler on entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' with 'MessageHandlerOptions - AutoComplete:true, MaxConcurrentCalls:1, MaxAutoRenewDuration:PT5M' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:31 INFO - Creating MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid', ReceiveMode 'PEEKLOCK' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:31 INFO - Creating core message receiver to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:31 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:31 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:32 INFO - Creating receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:32 INFO - Receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:32 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:32 INFO - Created MessageBrowser to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:32 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:32 INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:33 INFO - Starting ProtocolHandler ["http-nio-8087"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:33 INFO - Tomcat started on port(s): 8087 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:33 INFO - Started MrexPrcnPriceCachemanagerApplication in 24.117 seconds (JVM running for 27.502) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:46 INFO - Updating price Price(sku=04142455, store=115, currentPrice=123.123, regularPrice=123.123, promotionPrice=1000.0, taxes=[Price.Tax(tax=IGV, amountTax=130.0), Price.Tax(tax=ISC, amountTax=20.0)], detraction=Price.Detraction(codeDetraction=0035, nameDetraction=Carnes, percentDetraction=5.0)) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:47 WARN - 'Windows 10' with 'x86' system is not compatible with native library. JNI not loaded. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:48 INFO - Event published: {"sku":"04142455","store":115,"currentPrice":123.123,"regularPrice":123.123} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:27:48 INFO - Published Price updated{"sku":"04142455","store":115,"currentPrice":123.123,"regularPrice":123.123,"promotionPrice":1000.0,"taxes":[{"tax":"IGV","amountTax":130.0},{"tax":"ISC","amountTax":20.0}],"detraction":{"codeDetraction":"0035","nameDetraction":"Carnes","percentDetraction":5.0}} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:28:37 INFO - Updating price Price(sku=04142455, store=115, currentPrice=123.127, regularPrice=123.123, promotionPrice=1000.0, taxes=[Price.Tax(tax=IGV, amountTax=130.0), Price.Tax(tax=ISC, amountTax=20.0)], detraction=Price.Detraction(codeDetraction=0035, nameDetraction=Carnes, percentDetraction=5.0)) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:28:38 INFO - Event published: {"sku":"04142455","store":115,"currentPrice":123.127,"regularPrice":123.123} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:28:38 INFO - Published Price updated{"sku":"04142455","store":115,"currentPrice":123.127,"regularPrice":123.123,"promotionPrice":1000.0,"taxes":[{"tax":"IGV","amountTax":130.0},{"tax":"ISC","amountTax":20.0}],"detraction":{"codeDetraction":"0035","nameDetraction":"Carnes","percentDetraction":5.0}} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:29:38 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:04 INFO - Neither @ContextConfiguration nor @ContextHierarchy found for test class [rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.MrexPrcnPriceCachemanagerApplicationTests], using SpringBootContextLoader - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:04 INFO - Could not detect default resource locations for test class [rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.MrexPrcnPriceCachemanagerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:04 INFO - Could not detect default configuration classes for test class [rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.MrexPrcnPriceCachemanagerApplicationTests]: MrexPrcnPriceCachemanagerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:04 INFO - Found @SpringBootConfiguration rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.MrexPrcnPriceCachemanagerApplication for test class rtl.tot.corp.mrex.prcn.price.cachemanager.mrexprcnpricecachemanager.MrexPrcnPriceCachemanagerApplicationTests - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:05 INFO - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:05 INFO - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6324e92d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5cf9aecd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5658cebf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6e32b887, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a1b49ed, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3b8515a5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2bb8195c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@50357a2c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@201115e6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@33aa147c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@58b399ac, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@232c6c8c] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:05 WARN - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ext_lavergarav/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ext_lavergarav/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+ - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:06 INFO - Starting MrexPrcnPriceCachemanagerApplicationTests on MOEXT_LAVER with PID 19196 (started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\CacheManager\mrex-prcn-price-cachemanager) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:06 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:08 INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:08 INFO - Finished Spring Data repository scanning in 168ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:33 INFO - Initializing DocumentClient with serviceEndpoint [https://tot-pe-mrex-prcn-price-catalog.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@61af33f, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:38 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:41 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:41 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:41 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:41 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:41 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:41 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:43 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:43 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:43 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:43 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:43 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:43 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:44 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:44 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-out' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-out;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - Creating messaging factory from connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:45 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:46 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:46 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:46 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:46 INFO - Created subscription client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:46 INFO - Registering message handler on entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' with 'MessageHandlerOptions - AutoComplete:true, MaxConcurrentCalls:1, MaxAutoRenewDuration:PT5M' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:46 INFO - Creating MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid', ReceiveMode 'PEEKLOCK' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:46 INFO - Creating core message receiver to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:46 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:46 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:47 INFO - Creating receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:47 INFO - Receive link to 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:47 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:47 INFO - Created MessageBrowser to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:47 INFO - Created MessageReceiver to entity 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:48 INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:49 INFO - Started MrexPrcnPriceCachemanagerApplicationTests in 44.201 seconds (JVM running for 46.847) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:49 INFO - Shutting down ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:49 INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:30:49 WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:31:38 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:32:38 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:33:38 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:34:38 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:35:38 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:36:38 WARN - No messages received from 'tot-corp-orion-pricechanges-topic-mid/subscriptions/tot-corp-orion-pricechanges-Subs-topic-mid'. Pending receive request timed out. Returning null to the client. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:36:51 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:36:51 INFO - Shutting down ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:36:51 INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 14:36:51 WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 

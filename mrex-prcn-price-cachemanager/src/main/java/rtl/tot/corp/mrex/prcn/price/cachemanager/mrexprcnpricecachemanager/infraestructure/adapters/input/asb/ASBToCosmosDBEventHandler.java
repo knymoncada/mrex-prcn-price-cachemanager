@@ -74,7 +74,7 @@ public class ASBToCosmosDBEventHandler implements EventHandler {
 				
 					log.info("Updating price " + price);
 					
-					Optional<Price> priceObject = priceRepository.findById(Long.valueOf(event.getEntityId()));
+					Optional<Price> priceObject = priceRepository.findById(event.getEntityId());
 				
 				
 				

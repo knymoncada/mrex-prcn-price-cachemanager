@@ -27,12 +27,12 @@ public class ServiceBusSampleApplication {
 
     public void run() throws ServiceBusException, InterruptedException {
         
-    	 final String subscription = new StringBuffer("tot-corp-orion-pricechanges-topic-out")
+    	 final String subscription = new StringBuffer("tot-corp-orion-pricechanges-topic-mid")
                  .append("/subscriptions/")
-                 .append("TOT-CORP-ORION-PriceChanges-Subs-Topic-OUT")
+                 .append("TOT-CORP-ORION-PriceChanges-Subs-Topic-MID")
                  .toString();
          subscriptionClient =
-                 new SubscriptionClient(new ConnectionStringBuilder("Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;SharedAccessKeyName=totorionadm;SharedAccessKey=7xI4aMcODvF/BO17fql84s8KtBxLRp7pZUwPIp7EsY8=;EntityPath=tot-corp-orion-pricechanges-topic-out", 
+                 new SubscriptionClient(new ConnectionStringBuilder("Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;SharedAccessKeyName=totorionadm;SharedAccessKey=+uHMYKcSeBfapKNgfqLkXuQe8fgpz2GR4GGKkChZB4s=;EntityPath=tot-corp-orion-pricechanges-topic-mid", 
                 		 subscription), ReceiveMode.PEEKLOCK);
      
         receiveSubscriptionMessage();
